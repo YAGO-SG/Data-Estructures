@@ -10,10 +10,14 @@ typedef struct no {
 
 typedef struct lista {
     Tnoa * no;
-    struct lista * prox
+    struct lista * prox;
 } Tlista;
 
 Tlista * push(Tnoa * no, Tlista * lista) {
+    if(no == NULL) {
+        return lista;
+    }
+
     Tlista * novo = (Tlista*) malloc(sizeof(Tlista));
     novo->no = no;
     novo->prox = lista;
@@ -26,6 +30,41 @@ Tlista * pop(Tlista * lista) {
     free(lista);
 
     return aux;
+}
+
+Tlista * percorreEsq(Tlista * lista) {
+    while(lista->no->esq != NULL) {
+        lista = push(lista->no->esq, lista);
+    }
+
+    return lista;
+}
+
+void OrdemSimetrica(Tnoa * arvore) {
+    Tlista * lista = NULL;
+    lista = push(arvore, lista);
+    lista = percorreEsq(lista);
+    while(lista != NULL) {
+        printf(" %d \n", lista->no->info);
+        if(lista->no->dir != NULL) {
+            Tnoa * aux = lista->no->dir;
+            lista = pop(lista);
+            lista = push(aux, lista);
+            lista = percorreEsq(lista);
+        } else {
+            lista = pop(lista);
+            if(lista == NULL) {
+                break;
+            }
+            printf(" %d \n", lista->no->info);
+            Tnoa * aux = lista->no->dir;
+            lista = pop(lista);
+            lista = push(aux, lista);
+            if(aux != NULL) {
+                lista = percorreEsq(lista);
+            } 
+        }
+    }
 }
 
 void implementaNo(Tnoa * a, int x, int y) {
@@ -58,10 +97,6 @@ void imprimeNo(Tnoa * arv, int a) {
     }
 }
 
-void OrdemSimetrica(Tnoa * arvore) {
-
-}
-
 
 int main() {
     Tnoa * head = (Tnoa*) malloc(sizeof(Tnoa));
@@ -71,9 +106,7 @@ int main() {
     implementaNo(head->esq, 34, 54);
     implementaNo(head->dir, 23, 85);
 
-    imprimeNo(head, 0);
-    espelho(head);
-    imprimeNo(head, 0);
+    OrdemSimetrica(head);
 
     return 0;
 }
