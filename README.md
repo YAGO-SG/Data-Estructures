@@ -11,5 +11,7 @@ Obs: Cada pasta contem uma imagem do problemas proposto e um ou mais arquivos C 
     Instituição: Universidade Federal Fluminense (UFF)
 
     Curso: Ciência da Computação
+    
+    Docente: Vanessa Braganholo Murta
 
     Linguagem Principal: C
