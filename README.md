@@ -6,6 +6,8 @@ Repositório destinado ao armazenamento e documentação de todas as atividades,
 
 O objetivo deste repositório é consolidar o aprendizado prático de conceitos fundamentais da ciência da computação, focando em alocação de memória, eficiência algorítmica (Complexidade Ciclomática e Notação Big-O) e implementação de estruturas de dados clássicas.
 
+Obs: Cada pasta contem uma imagem do problemas proposto e um ou mais arquivos C contendo possíveis soluções.
+
     Instituição: Universidade Federal Fluminense (UFF)
 
     Curso: Ciência da Computação
