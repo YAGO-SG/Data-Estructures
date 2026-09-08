@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="421f8453-5871-4b79-973d-389f0b339c57" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ArvoreZigueZague/ArvoreZigueZague.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ArvoreZigueZague/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ArvoreZigueZague/output/ArvoreZigueZague" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ArvoreZigueZague/output/ArvoreZigueZague.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EspelhoDeÁrvore/EspelhoDeÁrvore.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EspelhoDeÁrvore/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EspelhoDeÁrvore/output/EspelhoDeÁrvore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ExclusãoABB/ExclusãoABB.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ExclusãoABB/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ExclusãoABB/output/ExclusãoABB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MaiorNoArvore/MaiorNoArvore.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MaiorNoArvore/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MaiorNoArvore/output/MaiorNoArvore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MaiorValorABB/MaiorValorABB.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MaiorValorABB/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MaiorValorABB/output/MaiorValorABB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OrdemSimetricaArvBina/Captura de Tela (26).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OrdemSimetricaArvBina/OrdemSimetricaArvBina.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OrdemSimetricaArvBina/output/OrdemSimetricaArvBina" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PosOrdemArvBina/PosOrdemArvBina.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PosOrdemArvBina/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PosOrdemArvBina/output/PosOrdemArvBina" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../alteraçãoListaEncadeada/alteraçãoListaEncadeada" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../alteraçãoListaEncadeada/alteraçãoListaEncadeada.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../alteraçãoListaEncadeada/problema.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arvoreBinariaCheia/arvoreBinariaCheia.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arvoreBinariaCheia/arvoreBinariaCheia2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arvoreBinariaCheia/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arvoreBinariaCheia/output/arvoreBinariaCheia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arvoreBinariaCheia/output/arvoreBinariaCheia2" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="W02qSMZp" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3J3b1FZQjDHFxInzflKZbhIimmw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.GrafoInstagram.c.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/yagosg/Faculdade/Estudos/Internos/Estrutura_de_dados/Grafos/GrafosInstagram",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="GrafoInstagram.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrafosInstagram" TARGET_NAME="GrafoInstagram.c" CONFIG_NAME="GrafoInstagram.c">
+      <option name="sourceFile" value="GrafoInstagram.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="421f8453-5871-4b79-973d-389f0b339c57" name="Changes" comment="" />
+      <created>1788892481756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788892481756</updated>
+      <workItem from="1788892484090" duration="728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/GrafoInstagram.c</url>
+          <line>181</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/GrafoInstagram.c</url>
+          <line>153</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
