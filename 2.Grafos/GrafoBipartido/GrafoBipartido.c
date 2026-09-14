@@ -110,6 +110,11 @@ typedef struct grafo{
     struct grafo *prox;
 }TGrafo;
 
+typedef struct ListaGrafo {
+    TGrafo * grafo;
+    struct ListaGrafo * prox;
+}TListaG;
+
 TGrafo *insere_vertice(TGrafo *g, int id) {
     TGrafo *vertice = (TGrafo *) malloc(sizeof(TGrafo));
     vertice->id_vertice = id;
@@ -173,46 +178,63 @@ void imprime(TGrafo *vertice) {
     }
 }
 
+TListaG * pushe(TListaG * pilha, TGrafo * grafo) {
+    TListaG * novo = (TListaG*) malloc(sizeof(TListaG));
+    novo->grafo = grafo;
+    novo->prox = pilha;
+
+    return novo;
+}
+
+TListaG * pope(TListaG *pilha) {
+    if(pilha == NULL) {
+        return pilha;
+    } else {
+        TListaG * aux = pilha;
+        pilha = pilha->prox;
+        free(aux);
+    }
+    return pilha;
+}
+
+
 int ehbipartido(TGrafo *g) {
     /*
-        OBS: Eu troquei o valor do vertice sem cor de -1 para 0 com intuito de facilitar meu código
+        OBS: Eu troquei o valor do vertice sem cor de -1 para 0 com intuito de facilitar meu código;
     */
-    TGrafo * aux = g;
-    aux->cor = 1;
-    int mod = -1;
-    while(aux != NULL) {
-        TVizinho * auxViz = aux->prim_vizinho;
-        TVizinho * auxVizPrim = aux->prim_vizinho; //Serve para voltar ao primeiro vizinho se o vertice for 0;
-        if(auxViz == NULL) aux->cor = 1;
 
-        while(auxViz != NULL) {
-            TGrafo * buscaGrafo = busca_vertice(g, auxViz->id_vizinho);
-            if(aux->cor == 0) {
-                if(buscaGrafo->cor != 0){
-                    aux->cor = (buscaGrafo->cor * -1);
-                    auxViz = auxVizPrim;
-                } else {
+    /*
+        Tentei utilizar Busca Profunda(DFS) para resolução desta questão;
+    */
+    TGrafo * aux = g; 
+    TListaG * lista = NULL;
+    while(aux != NULL) {
+        if(aux->cor != 0) {
+            aux = aux->prox;
+            continue;
+        }
+        aux->cor = 1;
+        lista = pushe(lista, aux);
+        TGrafo * aux2 = aux;
+        while(lista != NULL) {
+            aux2 = lista->grafo;
+            TVizinho * auxViz = aux2->prim_vizinho;
+            lista = pope(lista);
+            while(auxViz != NULL) {
+                TGrafo * Busca = busca_vertice(g, auxViz->id_vizinho);
+                if(Busca->cor == aux2->cor) {
+                    return 0;
+                } else if(Busca->cor == (aux2->cor * -1)) {
                     auxViz = auxViz->prox;
                     continue;
                 }
+                Busca->cor = (aux2->cor * -1);
+                lista = pushe(lista, Busca);
+                auxViz = auxViz->prox;
             }
-            if(buscaGrafo->cor == 0) {
-                buscaGrafo->cor = (aux->cor * -1);
-            } else if(buscaGrafo->cor == aux->cor) {
-                return 0;
-            }
-
-            auxViz = auxViz->prox;
-            }
-
-        if(aux->cor == 0) {
-            aux->cor = mod;
-            mod = mod * -1;
-            auxViz = auxVizPrim;
-        } else {
-            aux = aux->prox;
         }
-}
+        aux = aux->prox;
+    }
     return 1;
 }
 
